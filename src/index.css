@@ -1,13 +1,26 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  background-color: #fff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.card {
+  width: 12%;
+  border: 1px solid grey;
+  margin: 1%;
+  padding: 10px 0;
+  background-color:aqua;
+}
+
+.weather-cards {
+  display: flex;
+  justify-content: center;
+
+}
+
+.header{
+  margin: 50px;
+}
+
+h5{
+  font-size: 15px;
+  color: black;
 }
